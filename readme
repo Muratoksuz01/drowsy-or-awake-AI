@@ -1,0 +1,7 @@
+firstly we installed the  neceserry library 
+then collect the data with webcam 
+then in labelling app we labelled th image to install and run https://github.com/HumanSignal/labelImg 
+here detect algoritm should be  yolo and save to labels file in the data folder
+and you should write dataset.yaml
+and we are ready to train ,execute this command 'python train.py --img 320 --batch 16 --epochs 500 --data dataset.yml --weights yolov5s.pt --workers 2'
+and load the model and predict 
